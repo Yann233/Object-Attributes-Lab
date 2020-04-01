@@ -9,6 +9,8 @@ class Dog
         @name
     end
     ##################
+#Teach Dog about their breed through two methods, #breed, and #breed=
+#that read and write to a corresponding instance variable @breed.
     def breed=(breed_name)
         @breed = breed_name
     end
